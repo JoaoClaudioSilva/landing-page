@@ -1,0 +1,21 @@
+.tabela {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.itens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: auto;
+  border-radius: 8px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .tabela {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,21 @@
+.itens {
+  max-height: 100px;
+  text-align: center;
+}
+
+.itens:hover {
+  background-color: transparent;
+  cursor: auto;
+}
+
+.tabela {
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 150px;
+}
+
+@media (max-width: 700px) {
+  .tabela {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}

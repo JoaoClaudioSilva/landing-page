@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+app-root {
+  inset: 0;
+  width: 100%;
+}
+
+article {
+  padding: 50px 10px;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #1A1A1A;
+  color: white;
+  inset: 0;
+  padding-top: 100px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: transparent;
+  font-family: "Poppins";
+  font-size: 16px;
+  color: white;
+  border: none;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; 
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-family: 'Poppins';
+}
+
+.hoverable {
+  border: 2px solid #222;
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Center text */
+}
+.hoverable:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.tabela {
+  display: grid;
+  gap: 10px;
+}

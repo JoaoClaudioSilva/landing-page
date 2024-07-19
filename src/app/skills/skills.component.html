@@ -1,0 +1,11 @@
+<section class="skills">
+  <h2>SKILLS</h2>
+  <span class="tabela">
+
+    <figure class="itens" *ngFor="let skill of skills">
+      <img [src]="skill.logo" [alt]="skill.alt">
+      <figcaption>{{ skill.nome }}</figcaption>
+    </figure>
+
+  </span>
+</section>
