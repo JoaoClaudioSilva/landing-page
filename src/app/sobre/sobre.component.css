@@ -1,3 +1,7 @@
+img {
+  min-width: 200px;
+  max-width: 250px;
+}
 .conteudo {
   max-width: 660px;
   display: flex;
@@ -42,6 +46,6 @@
   }
 
   .curriculo {
-    padding: 50px;
+    margin: 25px;
   }
 }
